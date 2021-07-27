@@ -54,4 +54,4 @@
   with_items: "{{ krb_service }}"
 
 - name: Create an admin for administering Kerberos server
-  shell: kadmin.local -q "addprinc -pw {{ kadmin_pass }} {{ kadmin_user }}/admin"
+  shell: kadmin.local -q "addprinc -pw {{ kadmin_pass }} {{ kadmin_user }}"
