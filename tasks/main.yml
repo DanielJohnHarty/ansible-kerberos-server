@@ -1,5 +1,4 @@
 ---
-
 - name: Make sure we have the entry for hostname in /etc/hosts
   lineinfile:
     state: present
